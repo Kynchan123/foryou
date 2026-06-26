@@ -157,16 +157,76 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 35px 15px;
+    }
+
     header h1 {
         font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    header p {
+        font-size: 1rem;
     }
 
     section {
-        margin: 15px;
+        width: calc(100% - 20px);
+        margin: 10px auto;
         padding: 20px;
+        border-radius: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
     }
 
     .grounding-message {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
+        padding: 15px;
+    }
+
+    .friend-card {
+        padding: 15px;
+    }
+
+    .friend-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .friend-card p {
+        font-size: 1rem;
+    }
+
+    .memory-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .memory-grid img {
+        height: auto;
+    }
+
+    video,
+    iframe,
+    audio,
+    img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .video-note,
+    .reminder {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 20px;
+        font-size: 0.9rem;
     }
 }
